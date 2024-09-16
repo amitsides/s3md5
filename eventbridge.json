@@ -1,0 +1,23 @@
+{
+  "source": [
+    "aws.s3"
+  ],
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
+  "detail": {
+    "eventName": [
+      "PutObject"
+    ],
+    "requestParameters": {
+      "bucketName": [
+        "liquidity"
+      ],
+      "key": [
+        {
+          "prefix": "md5/"
+        }
+      ]
+    }
+  }
+}
